@@ -91,7 +91,7 @@ Follow the steps below to set up and run the project locally.
 Clone the repository from GitHub and navigate into the project directory.
 
 git clone https://github.com/<your-username>/ColdConnect.git  
-cd ColdConnect
+>cd ColdConnect
 
 ### Install Dependencies
 Install all required Python dependencies using the provided requirements file.
