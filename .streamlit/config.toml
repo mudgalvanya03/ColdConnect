@@ -1,0 +1,9 @@
+[theme]
+primaryColor="#FF4B4B"            # bright hacker red
+backgroundColor="#000000"         # pure black
+secondaryBackgroundColor="#121212" # near black for panels
+textColor="#F8F8F8"               # almost white
+font="monospace"
+
+
+

@@ -1,0 +1,15 @@
+# Secrets 
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+
+# Vector database (generated locally)
+vectorstore/
+
+# OS junk
+.DS_Store
