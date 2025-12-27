@@ -83,6 +83,47 @@ ChromaDB is used as a local vector store to persist resume embeddings which also
 ### Configuration and Dependencies
 Environment variables, Streamlit configuration, and dependency management are handled separately to keep the codebase clean and secure.
 
+## Folder Structure
+
+ColdConnect/
+│
+├── app/
+│   ├── main.py
+│   │   Streamlit application entry point
+│   │
+│   ├── chains.py
+│   │   LangChain and Groq orchestration logic
+│   │
+│   ├── resume.py
+│   │   Resume parsing, embedding generation, and semantic search
+│   │
+│   ├── utils.py
+│   │   Helper functions for text cleaning and preprocessing
+│   │
+│   ├── email_generator.py
+│   │   Standalone LLM test script (not used in application runtime)
+│   │
+│   ├── requirements.txt
+│   │   Python dependencies for the application
+│   │
+│   └── .env
+│       Environment variables (ignored by git)
+│
+├── dataset/
+│   └── resumeproject.pdf
+│       Sample resume used for testing
+│
+├── vectorstore/
+│   Local ChromaDB storage generated at runtime (ignored by git)
+│
+├── .streamlit/
+│   └── config.toml
+│       Streamlit configuration
+│
+└── README.md
+    Project documentation
+
+
 ## Setup Instructions
 
 Follow the steps below to set up and run the project locally.
