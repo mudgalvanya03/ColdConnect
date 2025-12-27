@@ -96,7 +96,7 @@ git clone https://github.com/<your-username>/ColdConnect.git
 ### Install Dependencies
 Install all required Python dependencies using the provided requirements file.
 
-pip install -r requirements.txt
+>pip install -r requirements.txt
 
 ### Configure Environment Variables
 Create a `.env` file inside the `app` directory and add your Groq API key.
@@ -112,7 +112,7 @@ After completing the setup steps, the application can be started locally using S
 ### Start the Streamlit App
 Run the following command from the project root directory.
 
-streamlit run app/main.py
+>streamlit run app/main.py
 
 ### Application Access
 Once the command is executed, Streamlit will start a local server and automatically open the application in the browser. If it does not open automatically, the local URL will be displayed in the terminal.
